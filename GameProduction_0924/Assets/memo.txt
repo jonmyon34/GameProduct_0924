@@ -1,0 +1,14 @@
+
+・シーン中にPlayer以外のカメラがあるとなぜかそこが腕になる
+
+
+
+
+
+
+
+
+
+
+ItemPackageSpawner
+ArrowHand
