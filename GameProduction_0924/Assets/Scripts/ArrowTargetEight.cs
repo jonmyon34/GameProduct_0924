@@ -10,7 +10,7 @@ public class ArrowTargetEight : MonoBehaviour
 
 
 	public Text scoreText;
-	private int score;
+	public int score;
 
 	void Start () 
 	{
