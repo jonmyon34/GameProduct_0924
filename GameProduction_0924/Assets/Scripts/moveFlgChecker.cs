@@ -10,35 +10,38 @@ public class moveFlgChecker : MonoBehaviour
 	public bool playerMoveFlg = false; //１度目の移動フラグ
 	public bool playerMoveFlg2 = false; //２度目の移動フラグ
 
-	private int checkScore = 0;
+
+	private Vector3 traningRoomFirstScale;	//リスタート用
+
+	
 
 	public GameObject SecondRoomMoveCheck;
 
 	/*
-	private bool moveFlg = false;
-		これを別スクリプトから参照しておくとか
+		thisのscaleが0になったら1回目のプレイヤーフラグがtrue
+
+		チュートリアルルームで的に矢が3回当たったときに２回目が動き出す		
 	*/
 
 	void Start ()
 	{
-
+		traningRoomFirstScale = this.transform.localScale;
 	}
 
 	// Update is called once per frame
 	void Update ()
 	{
-		checkScore = SecondRoomMoveCheck.GetComponent<ArrowTargetEight> ().score;
-		if (this.gameObject.transform.childCount == 0) //子がすべて無くなったら
+		playerMoveFlg2 = SecondRoomMoveCheck.GetComponent<TutorialTargetScript> ().plMoveFlg;
+		//tutorialでスコアが3になったら向こうのフラグがtrueになってそれがこっちに来る
+
+
+		Vector3 scaleCheck = this.gameObject.transform.localScale;
+		if (scaleCheck.x == 0.0f) //scaleが0になったら
 		{
 			//ここでFlgを立ててplayerMover辺りに渡す？
 			//Destroy (this.gameObject);
 			playerMoveFlg = true;
 		}
 
-		if (checkScore == 3)
-		{
-			playerMoveFlg2 = true;
-			//チュートリアルルームで的に矢が3回当たったときに２回目が動き出す
-		}
 	}
 }

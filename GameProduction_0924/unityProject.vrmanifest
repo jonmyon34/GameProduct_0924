@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.archeryvr.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\GitHub\\Unity\\GameProduct_0924\\GameProduction_0924\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "GameProduction_0924 [Testing]"
+        }
+      }
+    }
+  ]
+}
