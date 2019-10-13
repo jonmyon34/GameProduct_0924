@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 0
     width: 318
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -359,19 +359,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/shader&material
+    - Assets/Tsutsuji/ParallaxHUD/Materials
   m_ViewMode: 1
   m_StartGridSize: 72
   m_LastFolders:
-  - Assets/shader&material
+  - Assets/Tsutsuji/ParallaxHUD/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\Unity\GameProduct_0924\GameProduction_0924
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da3b0000
-    m_LastClickedID: 15322
-    m_ExpandedIDs: 00000000b62c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 122}
+    m_SelectedIDs: 6e4e0000
+    m_LastClickedID: 20078
+    m_ExpandedIDs: 00000000f62c0000664e00007a4e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -399,7 +399,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b62c0000
+    m_ExpandedIDs: 00000000f62c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,7 +451,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 183}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 72
   m_DirectoriesAreaWidth: 115
 --- !u!114 &15
@@ -517,20 +517,20 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa440000
-    m_LastClickedID: 17578
-    m_ExpandedIDs: 8cfbfffff4ffffff00000000
+    m_SelectedIDs: b0440000
+    m_LastClickedID: 17584
+    m_ExpandedIDs: 8cfaffff00000000e4440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Environment
-      m_OriginalName: Environment
+      m_Name: Quad
+      m_OriginalName: Quad
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -1206
+      m_UserData: -7838
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -570,14 +570,14 @@ MonoBehaviour:
     height: 626
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 3759.6088966999996
+  lastFramingTime: 127.01494819999999
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.290246, y: -225.16782, z: -1.0467606}
+    m_Target: {x: 14.406542, y: -198.88118, z: -95.62946}
     speed: 2
-    m_Value: {x: -3.290246, y: -225.16782, z: -1.0467606}
+    m_Value: {x: 14.406542, y: -198.88118, z: -95.62946}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -601,13 +601,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0169015, y: 0.9770757, z: 0.08491198, w: 0.19449258}
+    m_Target: {x: 0.00075732113, y: 0.9980346, z: -0.01229015, w: 0.061443422}
     speed: 2
-    m_Value: {x: -0.0169015, y: 0.9770757, z: 0.08491198, w: 0.19449258}
+    m_Value: {x: 0.00075732113, y: 0.9980346, z: -0.01229015, w: 0.061443422}
   m_Size:
-    m_Target: 41.30348
+    m_Target: 93.173584
     speed: 2
-    m_Value: 41.30348
+    m_Value: 93.173584
   m_Ortho:
     m_Target: 0
     speed: 2
