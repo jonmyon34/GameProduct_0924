@@ -12,9 +12,11 @@ public class CyberLineManager : MonoBehaviour
 	public GameObject parentObj;
 
 	private Vector3 playerPos;
-	private int existTimer;
+	private float existTimer = 0.0f;
 
-	public const int EXIST_TIME = 20;
+	const float EXIST_TIME = 0.33f;
+
+	private float duration = 0.0f;
 
 	bool RandBool ()
 	{
@@ -36,7 +38,7 @@ public class CyberLineManager : MonoBehaviour
 		playerPos.z = player.transform.position.z;
 
 		if (existTimer < EXIST_TIME)
-			existTimer++;
+			existTimer += Time.deltaTime;
 		else if(parentObj)
 			SpawnLine ();
 		
@@ -66,7 +68,7 @@ public class CyberLineManager : MonoBehaviour
 		childObj.transform.parent = parentObj.transform;
 
 
-		existTimer = 0;
+		existTimer = 0.0f;
 	}
 
 	Vector3 RandomPos ()
